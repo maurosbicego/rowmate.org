@@ -3,6 +3,12 @@
     {{ partial "hero.html" . }}
     {{ end }}
 
+
+    {{ if .Site.Params.plannedfunctions }}
+    {{ partial "plannedfunctions.html" . }}
+    {{ end }}
+
+
     {{ if .Site.Params.section1 }}
     {{ partial "section1.html" . }}
     {{ end }}
@@ -33,5 +39,5 @@
     {{ if .Site.Params.sidebar }}
     {{ partial "sidebar.html" . }}
     {{ end }}
-    
+
 {{ end }}

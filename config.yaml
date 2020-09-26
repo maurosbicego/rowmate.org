@@ -40,25 +40,18 @@ params:
   navbar:
   - title: Kontakt
     url: "#contact"
-  # section1:
-  #   title: Great power comes
-  #   subtitle: with great responsibility
-  #   tiles:
-  #   - title: App builder
-  #     icon: mouse-globe
-  #     text: This is some explanatory text that is on two rows
-  #     url: /
-  #     buttonText: Free trial
-  #   - title: Cloud integration
-  #     icon: laptop-cloud
-  #     text: This is some explanatory text that is on two rows
-  #     url: /
-  #     buttonText: Get started
-  #   - title: Add-ons & plugins
-  #     icon: plug-cloud
-  #     text: This is some explanatory text that is on two rows
-  #     url: /
-  #     buttonText: Get started
+  plannedfunctions:
+    title: Geplante Funktionen
+    tiles:
+    - title: Planen von Events
+      icon: calendar-alt
+      text: Events können eingetragen werden. Nutzer können sich für diese Events anmelden und sich für bestimmte Boote melden (Teams bilden).
+    - title: Vermittlung zwichen Mitgliedern
+      icon: users
+      text: Nutzer können sich untereinander austauschen und sich zum Rudern verabreden
+    - title: Marktplatz
+      icon: handshake
+      text: Nutzer können Anzeigen schalten (suche / biete an). Interessenten können sich schliesslich per Chat beim Verkäufer / Käufer melden
 
   section5: true
   footer:
@@ -78,4 +71,4 @@ params:
         title: "Allgemein"
         links:
         - text: Kontakt
-          link: "#kontakt"
+          link: "#contact"
